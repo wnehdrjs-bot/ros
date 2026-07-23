@@ -4,8 +4,6 @@ from rclpy.node import Node
 from rclpy.executors import MultiThreadedExecutor
 from rclpy.callback_groups import ReentrantCallbackGroup  # 1. callback_groups로 오타 수정
 from user_interface.srv import AddAndOdd 
-# 2. 불필요하고 잘못된 import thread 제거
-
 
 class ServiceServer(Node):
     def __init__(self):

@@ -46,7 +46,9 @@ setup(
             'service_client = my_py_pkg.service_client:main',
             'my_param = my_py_pkg.my_param:main',
             'param_async = my_py_pkg.param_async:main',
-
+            'action_server = my_py_pkg.action_server:main',
+            'action_client = my_py_pkg.action_client:main',
+            'action_thread_server = my_py_pkg.action_thread_server:main',
 
         ],
     },
